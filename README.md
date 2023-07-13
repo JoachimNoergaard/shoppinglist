@@ -1,2 +1,2 @@
-# shoppinglist
+# shopping
 Shopping list

@@ -1,0 +1,75 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/joachim.neve.norgaard/Projects/shopping/shopping/shopping.csproj": {}
+  },
+  "projects": {
+    "/Users/joachim.neve.norgaard/Projects/shopping/shopping/shopping.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/joachim.neve.norgaard/Projects/shopping/shopping/shopping.csproj",
+        "projectName": "shopping",
+        "projectPath": "/Users/joachim.neve.norgaard/Projects/shopping/shopping/shopping.csproj",
+        "packagesPath": "/Users/joachim.neve.norgaard/.nuget/packages/",
+        "outputPath": "/Users/joachim.neve.norgaard/Projects/shopping/shopping/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/joachim.neve.norgaard/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/sdk/7.0.306/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.306/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
